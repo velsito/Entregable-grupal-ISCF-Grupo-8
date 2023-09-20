@@ -1,0 +1,33 @@
+<circuit version="1.0.0-SR0" rev="1320" stepSize="1000000" stepsPS="1000000" NLsteps="100000" reaStep="1000000" animate="0" >
+
+<item itemtype="SR04" CircId="SR04-1" mainComp="false" Show_id="false" Show_Val="false" Pos="416,600" rotation="0" hflip="1" vflip="1" label="SR04-1" idLabPos="-16,-48" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+
+<item itemtype="Subcircuit" CircId="Uno-2" mainComp="false" Show_id="true" Show_Val="false" Pos="340,328" rotation="0" hflip="1" vflip="1" label="Uno-2" idLabPos="0,-20" labelrot="0" valLabPos="-16,20" valLabRot="0" Logic_Symbol="false">
+<mainCompProps itemtype="MCU" CircId="2_mega328-109" mainComp="true" Show_id="false" Show_Val="false" Pos="20,20" rotation="0" hflip="1" vflip="1" label="2_mega328-109" idLabPos="0,-20" labelrot="0" valLabPos="-16,20" valLabRot="0" Frequency="16 MHz" Auto_Load="false" Rst_enabled="true" Ext_Osc="true" Wdt_enabled="false" />
+</item>
+
+<item itemtype="Battery" CircId="Battery-3" mainComp="false" Show_id="false" Show_Val="false" Pos="420,264" rotation="0" hflip="1" vflip="1" label="Battery-3" idLabPos="-18,-22" labelrot="0" valLabPos="-10,10" valLabRot="0" Voltage="1.5 V" Resistance="1e-14 Ω" />
+
+<item itemtype="DcMotor" CircId="DcMotor-5" mainComp="false" Show_id="true" Show_Val="false" Pos="240,436" rotation="0" hflip="1" vflip="1" label="DcMotor-5" idLabPos="-22,-48" labelrot="0" valLabPos="-14,36" valLabRot="0" RPM_Nominal="60 _RPM" Volt_Nominal="12 V" Resistance="100 Ω" />
+
+<item itemtype="DcMotor" CircId="DcMotor-6" mainComp="false" Show_id="true" Show_Val="false" Pos="576,436" rotation="0" hflip="1" vflip="1" label="DcMotor-6" idLabPos="-22,-48" labelrot="0" valLabPos="-14,36" valLabRot="0" RPM_Nominal="60 _RPM" Volt_Nominal="12 V" Resistance="100 Ω" />
+
+<item itemtype="BcdTo7S" CircId="BcdTo7S-20" mainComp="false" Show_id="false" Show_Val="false" Pos="84,124" rotation="0" hflip="1" vflip="1" label="BcdTo7S-20" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Inverted="false" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1e+09 Ω" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" Tpd_ps="10000 ps" Tr_ps="3000 ps" Tf_ps="4000 ps" />
+
+<item itemtype="BcdTo7S" CircId="BcdTo7S-21" mainComp="false" Show_id="false" Show_Val="false" Pos="88,-24" rotation="0" hflip="1" vflip="1" label="BcdTo7S-21" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Inverted="false" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1e+09 Ω" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" Tpd_ps="10000 ps" Tr_ps="3000 ps" Tf_ps="4000 ps" />
+
+<item itemtype="BcdTo7S" CircId="BcdTo7S-22" mainComp="false" Show_id="false" Show_Val="false" Pos="348,-20" rotation="0" hflip="1" vflip="1" label="BcdTo7S-22" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Inverted="false" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1e+09 Ω" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" Tpd_ps="10000 ps" Tr_ps="3000 ps" Tf_ps="4000 ps" />
+
+<item itemtype="BcdTo7S" CircId="BcdTo7S-23" mainComp="false" Show_id="false" Show_Val="false" Pos="352,132" rotation="0" hflip="1" vflip="1" label="BcdTo7S-23" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Inverted="false" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1e+09 Ω" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" Tpd_ps="10000 ps" Tr_ps="3000 ps" Tf_ps="4000 ps" />
+
+<item itemtype="BJT" CircId="BJT-26" mainComp="false" Show_id="false" Show_Val="false" Pos="72,248" rotation="0" hflip="1" vflip="1" label="BJT-26" idLabPos="18,0" labelrot="0" valLabPos="-16,20" valLabRot="0" PNP="false" Gain="100" Vcrit="0.670736 V" />
+
+<item itemtype="BJT" CircId="BJT-27" mainComp="false" Show_id="false" Show_Val="false" Pos="112,248" rotation="0" hflip="1" vflip="1" label="BJT-27" idLabPos="18,0" labelrot="0" valLabPos="-16,20" valLabRot="0" PNP="false" Gain="100" Vcrit="0.670736 V" />
+
+<item itemtype="Battery" CircId="Battery-28" mainComp="false" Show_id="false" Show_Val="false" Pos="420,236" rotation="0" hflip="1" vflip="1" label="Battery-28" idLabPos="-18,-22" labelrot="0" valLabPos="-10,10" valLabRot="0" Voltage="1.5 V" Resistance="1e-14 Ω" />
+
+<item itemtype="Battery" CircId="Battery-29" mainComp="false" Show_id="false" Show_Val="false" Pos="420,208" rotation="0" hflip="1" vflip="1" label="Battery-29" idLabPos="-18,-22" labelrot="0" valLabPos="-10,10" valLabRot="0" Voltage="1.5 V" Resistance="1e-14 Ω" />
+
+<item itemtype="Ground" CircId="Ground-31" mainComp="false" Show_id="false" Show_Val="false" Pos="256,168" rotation="0" hflip="1" vflip="1" label="Ground-31" idLabPos="-16,8" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+
+</circuit>
